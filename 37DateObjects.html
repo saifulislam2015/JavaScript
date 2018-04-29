@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Date Objects</title>
+	<style type="text/css">
+		h1{
+			text-align:center;
+			color:blue;
+		}	
+	</style>
+</head>
+<body>
+
+<h1>A Very dumb site</h1>
+
+<script type="text/javascript">
+	function f(){
+		var now = new Date();
+		var hours = now.getHours();
+		var mins = now.getMinutes();
+		var seconds = now.getSeconds();
+		
+		document.write(hours+":"+mins+":"+seconds+"<br/>");
+	}
+	
+	setInterval(f(),1000);
+	
+</script>
+
+</body>
+</html>

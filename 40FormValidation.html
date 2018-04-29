@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Form Validation</title>
+	<style type="text/css">
+		h1{
+			text-align:center;
+			color:blue;
+		}	
+	</style>
+</head>
+<body>
+
+<form name="only">
+	<input type="checkbox" name="box"/>
+	<input type="button" value="press me!" onClick="validator()"/>
+</form>
+
+<h1>A Very dumb site</h1>
+
+<script type="text/javascript">
+	function validator(){
+		if(document.only.box.checked)
+			alert("Checked!");
+		else
+			alert("Not checked!");
+	}
+</script>
+
+</body>
+</html>

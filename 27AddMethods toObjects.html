@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Methods in Object</title>
+	<style type="text/css">
+		h1{
+			text-align:center;
+			color:green;
+		}	
+	</style>
+	
+	<script type="text/javascript">
+		function person(name,age){
+			this.name = name;
+			this.age = age;
+			this.yearsActive = yearsLeft;
+		}
+		
+		function yearsLeft(){
+			var years= 65 - this.age;
+			return years;
+		}
+		
+		var saiful = new person("saiful",23);
+		var tania = new person("tania",25);
+	</script>
+</head>
+<body>
+
+<h1>A pretty dumb site</h1>
+
+<script type="text/javascript">
+	document.write(saiful.yearsActive()+" + "+tania.yearsActive());
+</script>
+
+</body>
+</html>

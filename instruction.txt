@@ -1,0 +1,20 @@
+
+Intro:
+	starts with <script type="text/javascript"> tag.
+
+Variables:
+	Case sensetive.Start variable name with letter or _.
+	No @,&,$.
+	
+Event Handlers:
+	Possible outside script tags.'onClick' attribute.Can be used in body
+	tag.onLoad/onUnLoad is used in body.
+Objects:
+	Put on Head tags.Better to use initializer if objects to be made are 
+	low in number.
+	
+Add Array element loops:
+	var s = Prompt("Enter","");
+	-Prompts user.Takes input into variable s.
+Forms:
+	Outside script tags.

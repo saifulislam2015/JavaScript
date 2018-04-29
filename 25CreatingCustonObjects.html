@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Objects</title>
+	<style type="text/css">
+		h1{
+			text-align:center;
+			color:green;
+		}	
+	</style>
+	
+	<script type="text/javascript">
+		function person(name,age){
+			this.name = name;
+			this.age = age;
+		}
+		
+		var saiful = new person("saiful",23);
+		var tania = new person("tania",25);
+	</script>
+</head>
+<body>
+
+<h1>A pretty dumb site</h1>
+
+<script type="text/javascript">
+	document.write(saiful.name+" + "+tania.name);
+</script>
+
+</body>
+</html>
